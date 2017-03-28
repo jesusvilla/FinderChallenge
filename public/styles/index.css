@@ -1,0 +1,78 @@
+* {
+  font-family: "Proxima Nova";
+}
+body {
+  background-color: #f9f9f9;
+}
+.truncate {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.m-b-10 {
+  margin-bottom: 10px;
+}
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.pure-button {
+  border-radius: 2px;
+}
+.pure-button:not([disabled]) {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+.md-card {
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-out;
+}
+.md-card:hover {
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+aside.filters > #filters {
+  margin-right: 15px;
+}
+.md-list > .md-list-item {
+  padding: 0 5px;
+  min-height: 30px;
+  line-height: 30px;
+}
+.md-list > .md-list-item:hover {
+  background-color: #eaeaea;
+}
+.md-list > .md-list-item:first-child {
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #e8e8e8;
+}
+.search-form {
+  margin: 1.32em 0;
+}
+@media only screen and (max-width: 650px) {
+  .search-form {
+    display: none;
+  }
+}
+.logo {
+  margin: 11px;
+  padding: 8px;
+}
+.content-item > div {
+  margin: 5px;
+  overflow: hidden;
+}
+.content-item > div > .content-item-image {
+  width: 100%;
+}
+.content-item > div > .content-description {
+  padding: 0 10px 10px 10px;
+}
+.content-item > div > .content-description > p.title {
+  font-weight: bold;
+}
+.content-item > div > .content-description > p.teaser {
+  height: 150px;
+  max-height: 150px;
+}

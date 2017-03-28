@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Finder challenge</title>
+    <meta charset="utf-8">
+    <meta viewport="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Proxima+Nova" rel="stylesheet" type="text/css">
+    <link href="/vendor/pure/pure-min.css" rel="stylesheet">
+    <link href="/vendor/awesomplete/awesomplete.css" rel="stylesheet">
+    <link href="/styles/index.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="app pure-g">
+      <header class="pure-u-1">
+        <div class="pure-u-1-3">
+          <h1 class="logo">Finder challenge</h1>
+        </div>
+        <div class="pure-u-15-24">
+          <form class="pure-form search-form" id="formSearch" method="post" action="#">
+            <input id="search" placeholder="3 characters minimum.">
+            <button class="pure-button pure-button-primary" id="buttonSearch" disabled type="submit">Buscar</button>
+          </form>
+        </div>
+      </header>
+      <aside class="filters pure-u-1-4">
+        <div id="filters"></div>
+      </aside>
+      <content class="pure-u-3-4">
+        <div id="contentSearch"></div>
+      </content>
+      <footer class="pure-u-1"></footer>
+    </div>
+    <script src="/vendor/underscore/underscore-min.js"></script>
+    <script src="/vendor/awesomplete/awesomplete.min.js"></script>
+    <script src="/scripts/global.js"></script>
+    <script src="/scripts/search-form.js"></script>
+    <script src="/scripts/search-result.js"></script>
+    <script src="/scripts/filters.js"></script>
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>
